@@ -449,14 +449,14 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         await conn.sendMessage(
             from,
             {
-                image: { url: `https://qu.ax/Lsdcm.jpg` },
+                image: { url: `https://files.catbox.moe/8vvyve.jpg` },
                 caption: dec,
                 contextInfo: {
                     mentionedJid: [m.sender],
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363354023106228@newsletter',
+                        newsletterJid: '120363409500820105@newsletter',
                         newsletterName: 'Toxic',
                         serverMessageId: 143
                     }
@@ -466,7 +466,7 @@ async (conn, mek, m, { from, quoted, body,isCmd, command, args, q, isGroup, send
         );
 
         await conn.sendMessage(from, {
-            audio: { url: 'https://github.com/XdTechPro/KHAN-DATA/raw/refs/heads/main/autovoice/Quran.m4a' },
+            audio: { url: 'https://files.catbox.moe/hqk6ef.mp3' },
             mimetype: 'audio/mp4',
             ptt: false
         }, { quoted: mek });
